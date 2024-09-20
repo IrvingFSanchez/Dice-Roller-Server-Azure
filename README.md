@@ -12,7 +12,7 @@ For call backs use: /roll-dice or /dice at end of link
 
 The following repository is meant for the sole purpose of education.
 
-<https://github.com/IrvingFSanchez/DiceRollerServer_Azure>
+<https://github.com/IrvingFSanchez/Dice-Roller-Server-Azure>
 
 This is to create a Node.js based website that implements the Dice Roller WebServer Application
 such that all random numbers are generated on the server.
