@@ -1,9 +1,6 @@
 # DiceRollerServer_Azure
 
 ~Irving Sanchez
-~Project in regards to:
-Live Scrum Teams, Application Requirements,
-GitHub, Static Websites, and Node.js
 ~<IrvingFSanchez@lewisu.edu>
 
 For call backs use: /roll-dice or /dice at end of link
