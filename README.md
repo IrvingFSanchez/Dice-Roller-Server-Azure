@@ -6,8 +6,6 @@ Live Scrum Teams, Application Requirements,
 GitHub, Static Websites, and Node.js
 ~<IrvingFSanchez@lewisu.edu>
 
-<https://d1cer0ll3rserv3r.azurewebsites.net>
-
 For call backs use: /roll-dice or /dice at end of link
 
 The following repository is meant for the sole purpose of education.

@@ -1,0 +1,34 @@
+{
+  "name": "dice-roller-server-azure",
+  "version": "1.0.0",
+  "description": "Dice-Roller-Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "babel public -d dist --presets @babel/preset-env",
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrvingFSanchez/Dice-Roller-Server-Azure.git"
+  },
+  "keywords": [
+    "dice"
+  ],
+  "author": "Irving F Sanchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IrvingFSanchez/Dice-Roller-Server-Azure/issues"
+  },
+  "homepage": "https://github.com/IrvingFSanchez/Dice-Roller-Server-Azure#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "nodemon": "^2.0.15"
+  }
+}

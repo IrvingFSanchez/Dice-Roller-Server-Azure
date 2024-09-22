@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(138, 144, 236);
+    margin: 0; 
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    text-align: left;
+    border-radius: 5px;
+    text-decoration: none; /* Removes underline */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.button-container {
+    position: fixed; /* Fixed positioning relative to viewport */
+    top: 20px;       /* Spacing from top */
+    right: 20px;     /* Spacing from right */
+    z-index: 1000;   /* Ensures it stays on top of other content */
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none; /* Removes underline */
+}
+
+.btn2:hover {
+    background-color: #0056b3;
+}
+
+.content-container {
+    display: flex;            /* This Enables flexbox */
+    flex-direction: column;   /* This Stacks items vertically */
+    align-items: center;      /* This Center-aligns items horizontally */
+    justify-content: center;  /* This Center-aligns items vertically */
+    height: 100vh;            /* This Sets container height to fill viewport height */
+}
+
+.result-display {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}

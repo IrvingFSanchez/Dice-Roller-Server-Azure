@@ -50,3 +50,19 @@
   right: 25%;
   transform: translateY(-50%);
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(138, 144, 236);
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
