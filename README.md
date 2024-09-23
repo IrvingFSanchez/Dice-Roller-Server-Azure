@@ -3,6 +3,10 @@
 ~Irving Sanchez
 ~<IrvingFSanchez@lewisu.edu>
 
+To go to the webapp go to: (The domain name is a custom domain name from GoDaddy)
+
+<http://dice.cyberkineticengineering.com/>
+
 For call backs use: /roll-dice or /dice at end of link
 
 The following repository is meant for the sole purpose of education.
