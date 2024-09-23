@@ -4,7 +4,7 @@
   "description": "Dice-Roller-Application",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No tests specified\" && exit 0",
     "start": "node server.js",
     "build": "babel public -d dist --presets @babel/preset-env",
     "dev": "nodemon --exec babel-node src/server.js"
