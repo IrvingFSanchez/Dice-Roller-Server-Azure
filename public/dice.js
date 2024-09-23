@@ -9,3 +9,12 @@ function rollDice() {
   }
   dice.getElementsByClassName("face")[result - 1].style.display = "block";
 }
+document.addEventListener('DOMContentLoaded', function() {
+  rollDice();
+  
+  document.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+          rollDice();
+      }
+  });
+});
